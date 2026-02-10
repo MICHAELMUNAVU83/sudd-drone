@@ -1,0 +1,27 @@
+/* SUDDDRONE Navbar: white background with shadow for better logo visibility */
+.navigation-menu .cover-navigation {
+  background-color: #ffffff !important;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08), 0 4px 24px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+}
+
+/* Dark text on white nav for readability */
+.navigation-menu .nav-intro-item {
+  color: #231f20 !important;
+}
+
+.navigation-menu .nav-intro-item.item-hover {
+  color: #184275 !important;
+}
+
+/* Burger menu lines - dark on white */
+.navigation-menu .nav-line-white-2,
+.navigation-menu .line-white-2 {
+  background-color: #231f20 !important;
+  color: #231f20 !important;
+}
+
+/* Dropdown stays dark for contrast when open */
+.nav-dropdown-list {
+  background-color: #231f20 !important;
+}
