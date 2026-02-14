@@ -25,3 +25,33 @@
 .nav-dropdown-list {
   background-color: #231f20 !important;
 }
+
+/* Mobile sidebar (over-left menu): ensure logo and links are visible on black */
+.navigation-menu .dropdown-menu .nav-intro-item,
+.navigation-menu .tablet-menu .nav-intro-item {
+  color: #ffffff !important;
+}
+.navigation-menu .dropdown-menu .nav-intro-item.item-hover,
+.navigation-menu .tablet-menu .nav-intro-item.item-hover {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+.navigation-menu .dropdown-menu .full-width-nav-link {
+  color: #ffffff !important;
+}
+.navigation-menu .dropdown-menu .full-width-nav-link:hover {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+/* Sidebar header: consistent spacing and visible close icon */
+.navigation-menu .tablet-menu {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navigation-menu .close-menu-button {
+  cursor: pointer;
+}
+.navigation-menu .dropdown-menu .top-tablet-menu {
+  padding: 24px 20px;
+}
+.navigation-menu .nav-tablet-btn {
+  padding: 20px;
+}
